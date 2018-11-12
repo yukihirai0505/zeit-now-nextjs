@@ -1,1 +1,8 @@
-export default () => <div>this is about page</div>
+import React from 'react'
+import App from '../components/App'
+
+export default () => (
+  <App>
+    <p>About Page</p>
+  </App>
+)
